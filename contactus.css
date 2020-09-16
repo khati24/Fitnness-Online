@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.headsec{
+	background-color:#283747  ;
+	height: 150px;
+}
+
+.headte{
+	color: white;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.headtes{
+	color: white;
+	font-size: 30px;
+	margin-left: 800px;
+	font-family: 'Amatic SC', cursive;
+
+}
+
+.imgtransform{
+	transform: rotate(deg);
+	height: 300px;
+}
+
+.cardedit{
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.cardshift{
+	margin-left: 400px;
+}
+
+.devhead{
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+#address{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 400px;
+	margin-top: 10px;
+
+}
+
+.bottomadd{
+	background-color: grey;
+	height: 150px;
+	margin-top: 40px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+html{
+	height: 100%;
+}
+
+
+}
+.button1{
+	margin-left: 230px;
+	margin-top: 50px;
+}
+
+.head{
+	font-size: 40px;
+	margin-right: 50px;
+}
+
+.content{
+	font-family: 'Poiret One', cursive;
+	margin-right: 500px;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+				 0px 4px 13px rgba(0,0,0,0.1);
+
+
+}
+
+.head2{
+	margin-left: 150px;
+}
+
+.socialmedia{
+	margin-top: 10px;
+	margin-left: 600px;
+}
+.mar{
+	margin-right: 20px;
+}
+i:hover,i:active{
+	background-color: green;
+}
+
+.footeradd{
+	height: 300px;
+	background-color: black;
+	margin-top: 200px;
+}
+
+.find-1{
+	color: white;
+}
+
+.footadj-1{
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.para-1{
+	font-size: 13px;
+	color: #B2BABB
+}
+
+.hr-1{
+	background: white;
+	height: 2px;
+	width: 450px
+}
+.hr-1-1{
+	margin-top: 52px;
+	margin-right: 70px;
+	background: white;
+	height: 2px;
+}
+
+#lower{
+	margin-left: 400px;
+}
+
+.login-shift{
+	margin-left: 200px;
+}
+
+
+.button-shift{
+	margin-left: 30px;
+	margin-top: 45px;
+	background-color: black;
+}
+
+.button-shift-2{
+	margin-top: 45px;
+	margin-left: 150px;
+}

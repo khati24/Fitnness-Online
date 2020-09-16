@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="BMI.css">
+    <script type="text/javascript">
+
+
+        function computeBMI()
+        {
+            
+            var height=Number(document.getElementById("height").value);
+            var heightunits=document.getElementById("heightunits").value;
+            var weight=Number(document.getElementById("weight").value);
+            var weightunits=document.getElementById("weightunits").value;
+
+
+            
+            if (heightunits=="inches") height/=39.3700787;
+            if (weightunits=="lb") weight/=2.20462;
+
+            
+            var BMI=weight/Math.pow(height,2);
+
+           
+            document.getElementById("output").innerText=Math.round(BMI*100)/100;
+
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color:white ">
+  <a class="navbar-brand navitemcolor" href="bootcamproject.html"><span class="navitemcolor navheading">FITNESS ONLINE</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="bootcamproject.html"><span class="navitemcolor navitemfontstyle">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com/maps/search/gym+in+jalandhar/@31.325303,75.5754958,13z/data=!3m1!4b1"><span class="navitemcolor navitemfontstyle">Find Gym</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bmi calculator.html"><span class="navitemcolor navitemfontstyle">BMI</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="navitemcolor navitemfontstyle"></span></a>
+      </li>
+
+      <li>
+        <div class="dropdown">
+  <button class="btn btn-outline-secondary dropdown-toggle droppad" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Training
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="weight training.html">Weight Training</a>
+    <a class="dropdown-item" href="yoga.html">Yoga</a>
+    <a class="dropdown-item" href="cardio.html">Cardio</a>
+
+  </div>
+</div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="healthprod.html"><span class="navitemcolor navitemfontstyle">Health Products</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="blogging.html"><span class="navitemcolor navitemfontstyle">Blog</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html"><span class="navitemcolor navitemfontstyle">Contact Us</span></a>
+      </li>
+
+      <li>
+        <form class="form-inline">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+         </form>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
+    <h1 class="headingBMI">Body Mass Index Calculator</h1>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <div class="input-group input-group-lg textadj">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">Enter Height</span>
+        </div>
+        <input type="text" id="height" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+        <select type="multiple" id="heightunits">
+            <option value="metres" selected="selected">metres</option>
+            <option value="inches">inches</option>
+        </select>
+    </div>
+
+    <div class="input-group input-group-lg textadj">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Enter Weight</span>
+            </div>
+            <input type="text" id="weight" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+             <select type="multiple" id="weightunits">
+            <option value="kg" selected="selected">kilograms</option>
+            <option value="lb">Pounds</option>
+        </select>
+    </div>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <button type="submit" value="computeBMI" class="btn btn-primary btn-lg buttonadj" onclick="computeBMI()">Calculate</button>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+    <h1 class="result">Your BMI is: <span id="output">?</span></h1>
+    <br>
+    <br>
+    <div class="table1" align="center">
+    <p>
+      <b>
+      Under Weight = Less than 18.6<br/>
+      Normal Range = 18.6 and 24.9<br/>
+      Overweight = Greater than 24.9<br/>
+      </b>      
+    </p>
+    </div>
+</body>
+
+

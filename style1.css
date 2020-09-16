@@ -1,0 +1,23 @@
+.homed{
+	font-family: 'Raleway', sans-serif;
+	margin: 0%;
+	padding: 9% 5% 0% 55%;
+}
+
+.homey{
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 70px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block; 
+
+}
+
+.homec{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 50px;
+	display: inline-block;
+	color: black;
+}

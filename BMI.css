@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+.headingBMI{
+	margin: 50px 100px 100px 500px ;
+	font-family: 'Raleway', sans-serif;
+	color: #F39C12;
+	background-color: rgba(0,0,0,0.1);
+	display: inline-block;
+}
+
+
+.textadj{
+	margin: 10px 0px 45px 0px;
+	padding: 10px 450px 30px 450px;
+}
+
+.buttonadj{
+	margin: 5px 100px 10px 590px;
+}
+
+.result{
+	margin: 30px 70px 0px 500px;
+	font-family: 'Quicksand', sans-serif;
+}
+.table1{
+	border: 1px solid black;
+	margin-left: 500px;
+	margin-right: 500px;
+}

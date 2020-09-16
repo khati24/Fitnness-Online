@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+#head-1-2{
+	margin-top: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#subhead-1-1{
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+}
+
+#image-1{
+	margin-top: 40px;
+}
+
+.textstyle-1{
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 20px;
+}
+
+.textstyle-2{
+	font-family: 'Fredoka One', cursive;
+
+}

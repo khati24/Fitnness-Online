@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="finalproject.css">
+		<link rel="stylesheet" type="text/css" href="homepagestyle.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script>
+  function validateEmail()
+  {
+    var emailTextBox = document.getElementById("txtEmail");
+    var email = emailTextBox.value;
+    var emailRegEx = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    emailTextBox.style.color = "white";
+    if (emailRegEx.test(email))
+     {
+      emailTextBox.style.backgroundColor = "green";
+     }
+     else
+     {
+      emailTextBox.style.backgroundColor = "red";
+     }
+  }
+</script>
+<script>
+  function svalidateEmail()
+  {
+    var emailTextBox = document.getElementById("textEmail");
+    var email = emailTextBox.value;
+    var emailRegEx = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    emailTextBox.style.color = "white";
+    if (emailRegEx.test(email))
+     {
+      emailTextBox.style.backgroundColor = "green";
+     }
+     else
+     {
+      emailTextBox.style.backgroundColor = "red";
+     }
+  }
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color:white ">
+  <a class="navbar-brand navitemcolor" href="#"><span class="navitemcolor navheading">FITNESS ONLINE</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="bootcamproject.html"><span class="navitemcolor navitemfontstyle">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com/maps/search/gym+in+jalandhar/@31.325303,75.5754958,13z/data=!3m1!4b1"><span class="navitemcolor navitemfontstyle">Find Gym</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bmi calculator.html"><span class="navitemcolor navitemfontstyle">BMI</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="navitemcolor navitemfontstyle"></span></a>
+      </li>
+
+      <li>
+      	<div class="dropdown">
+  <button class="btn btn-outline-secondary dropdown-toggle droppad" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Training
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="weight training.html">Weight Training</a>
+    <a class="dropdown-item" href="yoga.html">Yoga</a>
+    <a class="dropdown-item" href="cardio.html">Cardio</a>
+
+  </div>
+</div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="healthprod.html"><span class="navitemcolor navitemfontstyle">Health Products</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="blogging.html"><span class="navitemcolor navitemfontstyle">Blog</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html"><span class="navitemcolor navitemfontstyle">Contact Us</span></a>
+      </li>
+
+      <li>
+      	<form class="form-inline">
+   			 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+   			 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+ 		 </form>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+		<div class="col-lg-12">
+			<div class="content">
+				<h1 class="head">Good health is the greatest gift</h1>
+				<h3 class="head2">So be fit and stay healthy with us..</h3>
+				<hr>
+			</div>
+			<button type="button" class="btn btn-primary btn-lg button-shift-2" data-toggle="modal" data-target="#exampleModalCenter1">Login</button>
+        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Email</label>
+    <input type="text" id="txtEmail" class="form-control" onkeyup="validateEmail()">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Password</label>
+    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Password">
+    <button type="submit" class="btn btn-primary login-shift" onclick="alert('You are successfully logged in.')">Login</button>
+  </div>
+</form>
+    
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<button type="button" class="btn btn-primary btn-lg button-shift" data-toggle="modal" data-target="#exampleModalCenter">Sign Up</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">First Name</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Last name</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Email</label>
+    <input type="text" id="textEmail" class="form-control" onkeyup="svalidateEmail()">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Password</label>
+    <input type="password" class="form-control" id="inputAddress2" placeholder="Password">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Uttarakhand</option>
+        <option>Delhi</option>
+        <option>Punjab</option>
+        <option>Himanchal Pradesh</option>
+        <option>West Bengal</option>
+        <option>Oddisa</option>
+        <option>U.P</option>
+        <option>Haryana</option>
+        <option>Rajasthan</option>
+        <option>Gujarat</option>
+        <option>M.P</option>
+        <option>Goa</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" onclick="alert('You are successfully registered.')">Sign in</button>
+</form>
+      </div>
+
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+
+
+
+  <div class=" row footeradd">
+    <div class="col-sm-6 find-1">
+      <div class="footadj-1">
+      <p class="para-1">Find Us:<br><br>
+      Room No:- 609, Bh5 A block<br>
+      Lovely Professional University<br>
+      Phgwara, Punjab<br>
+      144411<br>
+      <i class="fas fa-phone"></i>+91 8958220071 , +91 8650952432<br>
+      <i class="fas fa-envelope"></i> khatiamit24@gmail.com, <br>
+      <i class="fas fa-envelope"></i> kaushalbisht@gmail.com</p>
+      <div class="hr-1">
+      </div>
+     </div>
+    </div>
+    
+    <div class="col-sm-6 find-1">
+      <div class="footadj-1">
+      <p class="para-1">Quick Links:<br><br>
+      <a>Home</a><br>
+      <a>Training</a><br>
+      <a>Health produts</a><br>
+      <a>Blogs</a><br>
+      <a>Contact Us</a>
+    </p>
+     <div class="hr-1-1">
+      </div>
+    </div>
+  </div>
+   <div class="socialmedia">
+    <i class="fab fa-facebook fa-2x mar"></i>
+    <i class="fab fa-instagram fa-2x mar"></i>
+    <i class="fab fa-blogger fa-2x mar"></i>
+    <i class="fab fa-twitter fa-2x mar"></i>
+    <div id="lower">
+    Copyright@2019 | Designed by Amit Khati
+  </div>
+  </div>
+
+
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.2.3/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+</body>
+</html>
+

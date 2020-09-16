@@ -1,0 +1,40 @@
+#proadd{
+	margin-top: 20px;
+}
+.card-1{
+	margin-top: 50px;
+}
+
+.cardimg1{
+	height: 160px;
+	width: 190px;
+	margin-left: 40px;
+}
+.card-text2{
+	color: grey;
+	font-size: 14px;
+}
+
+.card-text3{
+	color: green;
+}
+
+.card-link{
+	margin-left:100px;
+	color: #3498DB ;
+}
+
+#fit{
+	font-size: 12px;
+	margin-left: 10px;
+}
+#fitlist{
+	font-size: 12px;
+	margin-left: 30px;
+}
+
+.col2border{
+	border-right: 1px solid #808B96;
+	height: 1000px;
+	background-color: rgba(0,0,0,0.08);
+}

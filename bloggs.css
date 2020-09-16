@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+
+.helbog{
+	font-size: 70px;
+}
+
+.blog{
+	color: red;
+}
+
+.dot{
+	color: red;
+	}
+
+.underline{
+	background-color: black;
+	height: 1px;
+}
+
+.ppink{
+			
+			border: 1px solid purple;
+		}
+
+.img1{
+	height: 300px;
+	width: 500px;
+	margin-top: 10px;
+}
+
+.paraedit{
+	background-color: rgba(0,0,0,0.1);
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.img2{
+	height: 300px;
+	width: 500px;
+	margin-top: 10px;
+}
+
+.headrun{
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+
+.para2edit{
+	background-color: rgba(0,0,0,0.1);
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.yogaa{
+	margin-top: 20px;
+}
+
+.update{
+	margin-top: 30px;
+}
+
+.waterhead{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.headrun{
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+
+}
+
+.nutriback{
+	background-image: url("nutrition.jpg");
+}
+
+.nutriback2{
+	background-image: url("nutrition2.jpg");
+}
+
+.bottom{
+	background-color: grey;
+	height: 200px;
+}
+
+.bottomcon{
+	margin-left: 450px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.combined{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.yogaed{
+	font-size: 50px;
+	font-family: 'Poiret One', cursive;
+}
+
+.lowgrey{
+	color: #717D7E ;
+}

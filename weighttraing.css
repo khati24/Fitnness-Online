@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+.row2{
+	margin-top: 50px;
+}
+
+.shift{
+	margin-left: 50px;
+
+}
+
+.fonthead{
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+}
+
+.cardback{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.buttonback{
+	background-color:#717D7E;
+}
+
+.jumboback{
+	background: url(footwear.jpg);
+	background-size: cover;
+	position: center;
+}
+
+.displayit{
+	color: white;
+}
+
+.hrline{
+	background-color: white;
+}
+
+.card-text{
+	font-family: 'Poiret One', cursive;
+}
